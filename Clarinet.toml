@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/consumer-engagement.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.container-lifecycle]
+path = 'contracts/container-lifecycle.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
